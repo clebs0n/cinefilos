@@ -40,7 +40,7 @@ Scenario: Criar uma conta com e-mail existente
   And preenche o apelido com "Edttn"
   And preenche o email com "einstein@mail.com"
   And preenche a senha com "Bsf4331bb" que atende as políticas de senha
-  And preenche o número de celular com "99999999999" 
+  And preenche o número de celular com "555555" 
   And preenche o gênero com "masculino"
   And preenche o endereço com "Rua dos belos, nº 2"
   And o usuário escolhe se "Cadastrar"
