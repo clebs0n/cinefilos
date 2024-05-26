@@ -19,3 +19,4 @@ Scenario: Criar uma conta com sucesso
   Then o usuário é cadastrado no sistema
   And o usuário recebe uma mensagem "Cadastro concluído com sucesso"
   And o usuário está na página de "login"
+  And consegue escolher um novo e-mail
