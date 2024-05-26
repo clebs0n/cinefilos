@@ -11,7 +11,7 @@ Scenario: Criar uma conta com sucesso
   When o usuário preenche o nome completo com "Albert Einstein", 
   And preenche o apelido com "Einstein", 
   And preenche o email com "einstein@mail.com",
-  And preenche a senha com "Einstein2222" que atende as políticas de senha,
+  And preenche a senha com "Vks45500fff" que atende as políticas de senha,
   And preenche o número de celular com "123456777",
   And preenche o gênero com "masculino", 
   And preenche o endereço com "Rua dos belos, nº 0"
