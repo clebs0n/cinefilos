@@ -25,7 +25,7 @@ Scenario: Criar uma conta sem e-mail
   When o usuário preenche o nome completo com "Albert Einstein"
   And preenche o apelido com "Einstein",
   And preenche a senha com "Vxkhc986" que atende as políticas de senha,
-  And preenche o número de celular com "123456777"
+  And preenche o número de celular com "888888"
   And o usuário escolhe se "Cadastrar"
   Then é exibido uma mensagem de erro para o usuário
   And o usuário está na página de "login"
