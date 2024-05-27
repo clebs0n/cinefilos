@@ -12,9 +12,9 @@ Scenario: Criar uma conta com sucesso
   And preenche o apelido com "Einstein", 
   And preenche o email com "einstein@mail.com",
   And preenche a senha com "Vks45500fff" que atende as políticas de senha,
-  And preenche o número de celular com "123456777",
+  And preenche o número de celular com "99999999",
   And preenche o gênero com "masculino", 
-  And preenche o endereço com "Rua dos belos, nº 0"
+  And preenche o endereço com "Rua dos belos, nº 10"
   And o usuário escolhe se "cadastrar"
   Then o usuário é cadastrado no sistema
   And o usuário recebe uma mensagem "Cadastro concluído com sucesso"
