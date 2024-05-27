@@ -7,7 +7,7 @@ Scenario: Criar uma conta com sucesso
   Given o usuário está na página de "Cadastro" 
   And o email "einstein@mail.com" não está cadastrado no sistema
   And o apelido "Einstein" não está cadastrado no sistema
-  And o telefone "123456777" não está cadastrado no sistema
+  And o telefone "99999999" não está cadastrado no sistema
   When o usuário preenche o nome completo com "Albert Einstein", 
   And preenche o apelido com "Einstein", 
   And preenche o email com "einstein@mail.com",
