@@ -14,7 +14,7 @@ Scenario: Criar uma conta com sucesso
   And preenche a senha com "Vks45500fff" que atende as políticas de senha,
   And preenche o número de celular com "99999999",
   And preenche o gênero com "masculino", 
-  And preenche o endereço com "Rua dos belos, nº 10"
+  And preenche o endereço com "Rua dos belos, nº 20"
   And o usuário escolhe se "cadastrar"
   Then o usuário é cadastrado no sistema
   And o usuário recebe uma mensagem "Cadastro concluído com sucesso"
