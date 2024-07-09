@@ -48,7 +48,7 @@ And preenche os dados de "título" com "Melhor filme da história"
 And preenche os dados de "nota" com ""
 And preenche os dados de "crítica" com "Sem palavras para esse filme, espetacular."
 And seleciona "publicar avaliação"
-Then aparece uma mensagem de erro
+Then aparece uma mensagem de erro para o usuario
 And o usuario esta na pagina de "conteudos"
 
 Scenario: criação bem sucedida de uma avaliação para uma serie sem título
@@ -74,5 +74,5 @@ And preenche os dados de "título" com "Melhor serie da história"
 And preenche os dados de "nota" com ""
 And preenche os dados de "crítica" com "Sem palavras para esse serie, espetacular."
 And seleciona "publicar avaliação"
-Then aparece uma mensagem de erro
+Then aparece uma mensagem de erro para o usuario
 And o usuario esta na pagina de "conteudos"
